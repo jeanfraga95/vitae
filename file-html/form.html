@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formularios</title>
+</head>
+
+<body>
+
+    <form action="/enviar" method="get">
+        <fieldset>
+            <label>Nome: <input type="text" name="nome" value="Digite seu nome" required></label>
+            <br><br />
+            <ol><label>Telefone: <input type="tel" name="tel" value="Digite seu telefone" required></label>
+                <br><br />
+                <label>Data de Nascimento <input type="date" name="date" value="Digite sua data de nascimento"
+                        required></label>
+                <br><br />
+                <label for="estadocivil">Estado Civil</label>
+                <select name="estadocivil" id="ecivil">
+                    <option value="Casado">Casado</option>
+                    <option value="solteiro">solteiro</option>
+                    <option value="divorciado">divorciado</option>
+                    <option value="viuvo">viuvo</option>
+                </select><br>
+                <label>E-mail: <input type="email" name="email" value="Digite seu E-mail" required></label>
+
+                <br><br />
+
+                <label>Assunto: <input type="text" name="assunto" value="Assunto" required></label>
+
+                <br><br />
+                <label>Digite sua mensagem abaixo</label>
+                <textarea name="textar" value="Digite sua Mensagem" width=600, right=300></textarea>
+                <br><br />
+                <input type="submit">
+                <input type="reset">
+        </fieldset>
+
+
+    </form>
+    </ul>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+form{
+    align-content: flex-start;
+}
+
+label {
+    
+    align-items: center;
+    width: 120px;
+}
+fieldset{
+    background-color: rgb(122, 200, 219);
+    width: 25%;
+    align-items: center;
+    
+
+}
+textarea{
+    width: 200px; right: 1500px;
+}
+ol{
+    color: rgb(153, 69, 0);
+}
