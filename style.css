@@ -1,0 +1,27 @@
+.a1 {
+            text-align: right;
+        }
+
+        body {
+            display: inline-block;
+            padding: 15%;
+            margin-left: 10%;
+            font-family:arial;
+            color:dimgrey;
+            letter-spacing: 0px;
+            padding: 150px 80px;
+            /* padding-top:150px ;
+            padding-right: 150px;
+            padding-bottom: 150px; */
+        
+        }
+        h3{
+            display: inline;
+            /* margin: ;
+            padding: ; */
+        }
+        ul li{
+            display: inline-block;
+            list-style:none;
+            border-radius: none;
+        }
