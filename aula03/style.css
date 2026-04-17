@@ -1,0 +1,44 @@
+* {
+            /* reset universal para todo o site */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body{
+            padding: 50px 50px;
+        }
+        .box1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;/* ele alinha na horizontal ou vertical */
+            align-items: center;
+            width: 400px;
+            height: 400px;
+            background-color: beige;
+        }
+        #titulo-principal{
+            color: rgb(24, 24, 24);
+        }
+        ul {
+            display: flex;
+            gap: 30px;/* espaçamento entre os elementos*/
+        }
+        ul li{
+            list-style: none;
+            font-size: 1.5rem;
+
+        }
+        a{
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(167, 93, 8);
+            
+            text-decoration:;
+            font-weight: 500;
+        }
+        
+       
