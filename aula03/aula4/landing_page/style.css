@@ -39,6 +39,13 @@ body{
     line-height: 1.6;
 
 }
+h2 {
+    font-size: clamp(1.7rem, 3rem, 3rem );
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--txt-suave);
+    margin-bottom: var(--space-lg);
+}
 .navbar{
     position: fixed;
     top: 0;
@@ -341,7 +348,38 @@ body{
     color: var(--txt-suave);
     line-height: 1.5;
 }
+/* section solucoes */
+.solucoes{
+    background-color: #eff4ff;
+    padding: var(--space-xxl) 0;
+}
+.solucoes .conteiner{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.solucoes-header{
+    text-align: center;
+    margin-bottom: var(--space-xxl);
+}
+.solucoes-descricao{
+    text-align: center;
+    font-size: 1.0625rem;
+    color: var(--txt-suave);
+    line-height: 1.75;
+    margin: 0 auto;
+    max-width: 38rem;
+    
 
+}
+.cards-grids{
+    display: grid;
+    /* o auto-fill o grid cria quantas colunas couberem */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-md);
+ 
+
+
+}
 
 
 /* azul = #004ac6 */
