@@ -374,12 +374,36 @@ h2 {
 .cards-grids{
     display: grid;
     /* o auto-fill o grid cria quantas colunas couberem */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: var(--space-md);
- 
-
-
 }
-
+.card{
+    background-color: white;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--space-lg);
+    padding: var(--space-xl);
+    transition: transform 0.2s ease;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.301);
+    transition: 0.5s;
+    
+}
+.card-icone{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: var(--space-md);
+}
+.card-titulo{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--txt-suave);
+}
+.card-descricao{
+    font-size: 0.9375rem;
+    color: var(--txt-suave);
+    line-height: 1.75;
+}
 
 /* azul = #004ac6 */
