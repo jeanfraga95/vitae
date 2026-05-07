@@ -43,7 +43,7 @@ h2 {
     font-size: clamp(1.7rem, 3rem, 3rem );
     font-weight: 700;
     line-height: 1.2;
-    color: var(--txt-suave);
+    color: black;
     margin-bottom: var(--space-lg);
 }
 .navbar{
@@ -407,3 +407,168 @@ h2 {
 }
 
 /* azul = #004ac6 */
+/* equipe */
+.equipe{
+    padding: var(--space-xxl)0;
+}
+.conteiner-equipe{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.dados-equipe{
+    display: flex;
+    justify-content: center;
+    gap: var(--space-lg);
+       flex-wrap: wrap;
+    
+
+}
+.menbro-equipe{
+    width: 100%;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+.avatar{
+    width: 112px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    font-size: 1.45rem;
+    font-weight: 700;
+    
+
+}
+.avatar:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.301);
+    transition: 0.9s;
+    
+
+}
+.th2{
+    margin-bottom: 6rem;
+}
+h4{
+    color: black;
+}
+.menbro-descricao{
+    margin-top: 1rem;
+}
+.menbro-cargo{
+    color: var(--azul-principal);
+    font-weight: 700;
+}
+.contato{
+    display: flex;
+    flex-direction: row;  
+    background-color: #eff4ff;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+
+}
+.localizacao{
+    color: white;
+
+    background-color: var(--azul-principal);
+    border-radius:5%;
+    padding: var(--space-xl);
+    padding-top: 3rem;
+    padding-right: 3;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+.vamos{
+    color: white;
+}
+.formulario{
+    border: 1px solid var(--cor-borda);
+    background-color: white;
+    border-radius: var(--space-lg);
+    padding: var(--space-xl);
+    padding-right: 3;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    
+}
+.formulario input{
+    border: none;
+    border-bottom: 1px solid var(--cor-borda);
+    padding: 0.75rem 0;
+    font-family: var(--fonte-txt);
+    font-size: 1 rem;
+    color: var(--txt-cor);
+    background-color: transparent;
+    resize: none;
+    height: 2rem;
+}
+.email{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.street{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.te{
+    display: flex;
+    margin-bottom: 1rem;
+}
+hr{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.vamos{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.formulario .btn-enviar{
+    display: flex;
+    background-color: #003ea8;
+    color: white;
+    width: 70%;
+    text-align: center;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.0625rem;
+    border-radius: var(--space-md);
+    font-weight: 600;
+
+}
+.formulario .btn-enviar:hover{
+    display: flex;
+    background-color: #07398f;
+    color: white;
+    width: 70%;
+    box-shadow: #43465557;
+    text-align: center;
+
+    margin-top: 1rem;
+    font-size: 1.0625rem;
+    border-radius: var(--space-md);
+    font-weight: 600;
+
+}
+.formulario .textarea{
+    border: none;
+    border-bottom: 1px solid var(--cor-borda);
+    width: 28rem;
+    height: 7rem;
+}
+.formulario .linha1{
+
+}
